@@ -39,7 +39,7 @@ export function InputForm() {
     return (
         <>
             <form className='inputForm'>
-                <h2>Application Form</h2>
+                <h2>The Amazing Application Form</h2>
                 <div className='formRow'>
                     <label htmlFor='realName'>Name:</label>
                     <input onChange={handleChange}  type='text' id='realName' name='realName' />
