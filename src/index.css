@@ -51,6 +51,12 @@ h1 {
   
 }
 
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .inputForm label {
   width: 75px;
   text-align: left;
@@ -63,6 +69,35 @@ h1 {
 .formRow {
   display: flex;
   align-items: center;
+}
+
+.toDoItem {
+  background-color: rgb(128, 86, 31);
+  border-radius: 5px;
+  border: solid 1px grey;
+  margin: 5px 0 5px 0;
+  padding-left: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.toDoForm {
+  border-radius: 5px;
+  border: solid 1px grey;
+  margin: 5px 0 5px 0;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  width: 50%;
+}
+
+.taskFormInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toDoFormLabel {
+  margin: 0;
 }
 
 .emailAlert {
