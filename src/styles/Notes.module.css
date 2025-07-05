@@ -1,6 +1,7 @@
 :root {
     --main-color: #000000; 
     --background-color: #FFD100;
+    --secondary-color: #FFFFFF;
 }
 
 .PostItNote {
@@ -10,6 +11,7 @@
     border: solid 1px #000000;
     color: var(--main-color);
     padding: 5px;
+    margin: 5px 5px;
 }
 
 .Header {
@@ -19,4 +21,27 @@
 .Text {
     margin: 0;
     font-size: 12px;
+}
+
+.week {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.weekDayContainer {
+    border: solid 2px var(--secondary-color);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.weekDayHeader {
+    margin: 5px 0 5px 5px;
+    text-align: left;
+}
+
+.weekDay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
