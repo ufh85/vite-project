@@ -10,6 +10,7 @@ function ToDoContainer() {
 
     const addToDo = (text) => {
         setTodos((prev) => [...prev, {text: text, id: generateId()}]);
+        
     }
 
     const removeToDo = (toDoId) => {

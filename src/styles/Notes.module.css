@@ -1,0 +1,22 @@
+:root {
+    --main-color: #000000; 
+    --background-color: #FFD100;
+}
+
+.PostItNote {
+    background-color: var(--background-color);
+    width: 125px;
+    height: 125px;
+    border: solid 1px #000000;
+    color: var(--main-color);
+    padding: 5px;
+}
+
+.Header {
+    margin: 10px 0 5px;
+}
+
+.Text {
+    margin: 0;
+    font-size: 12px;
+}
